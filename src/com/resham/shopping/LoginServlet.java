@@ -29,8 +29,8 @@ public class LoginServlet extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
 
 			//	Connection con = DriverManager.getConnection("jdbc:mysql://178.62.78.215/db", "root", "ukg5137grg");
-	//	Connection con = DriverManager.getConnection("jdbc:mysql://localhost/db", "root", "rooney");
-			Connection con = DriverManager.getConnection("jdbc:mysql://mysql-dev-01.cloud.wso2.com:3306/db_4technicaldiffi", "root", "rooney");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost/db", "root", "rooney");
+			//Connection con = DriverManager.getConnection("jdbc:mysql://mysql-dev-01.cloud.wso2.com:3306/db_4technicaldiffi", "root", "rooney");
 			
 			Statement st = con.createStatement();
 			ResultSet rs;
